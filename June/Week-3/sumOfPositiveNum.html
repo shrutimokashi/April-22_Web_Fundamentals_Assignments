@@ -1,0 +1,23 @@
+<!-- 1.An array is given, return the sum of all the positives numbers. const input = [ 1, -5, 2, 10, -30, 29, 50]; -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const input = [ 1, -5, 2, 10, -30, 29, 50];
+const filteredData = input.filter(function(a) {
+    return a >= 0;
+});
+
+sum = filteredData.reduce(function(a,b) {
+    return a + b;
+
+});
+console.log(filteredData);
+console.log(sum);
+    </script>
+</body>
+</html>
