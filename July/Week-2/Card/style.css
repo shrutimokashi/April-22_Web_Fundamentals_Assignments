@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(45deg,rgb(203, 85, 85),black,rgb(208, 92, 92));
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin: 100px auto;
+}
+
